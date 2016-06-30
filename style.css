@@ -1,0 +1,51 @@
+
+
+/*arriere plan*/
+body {
+
+    background-image: url(sa.png);
+}
+/* Navigation  */
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 10;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em
+}
+/*titre*/
+h1 {
+    font-size: 38px;
+    color:  #625B48;
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+    text-align: center;
+
+}
+/*PLACEMENT NAVIGATION*/
+ul.navbar li {
+    padding: 14;
+    margin-top: 10px;
+    margin: 10px;
+
+}
+/*POLICE NAVIGATION*/
+ul.navbar a {
+    text-decoration-color: transparent;
+    color: #625B48;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+
+th {
+font-family:monospace;
+border:1px dotted #6495ed;
+padding:5px;
+background-color:#EFF6FF;
+width:29%;
+
+
+}
