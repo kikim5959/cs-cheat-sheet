@@ -1,28 +1,28 @@
 /*corp de la page*/
-
+​
 body {
     font-family: Arial, sans-serif;
     background-color: teal;
     display: block;
     margin: 0;
 }
-
+​
 /*placement du titre*/
-
+​
 #heading {
     border-bottom: 1px solid #000;
     margin: 11px 15px 10px 85px;
 }
-
+​
 /*largeur du tableau*/
-
+​
 #contentbox {
-    margin-left: 100px;
-    margin-right: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
     top: 50px;
 }
+​
 #content1 {
-    float: left;
     width: 60%;
 }
 #content2 {
@@ -33,7 +33,9 @@ body {
 .section {
     border: 1px solid black;
     margin: 4px;
-    width: 100%;
+    max-width: 23%;
+    display: inline-block;
+    height: 300px;
 }
 /*les bourdur interieur du tableau
 avec la police*/
@@ -49,26 +51,26 @@ avec la police*/
     vertical-align: top;
     border: 0;
 }
-
+​
 /*couleur interieur des bordure*/
-
+​
 .subheading2 {
 	background-color: #c6e7ef;
 }
-
-
-
+​
+​
+​
 .evenrow {
     background-color: #eee;
 }
-
+​
 /*titre*/
 h1 {
     margin: 0px;
     padding: 0px;
-
+​
 }
-
+​
 /*ligne du bas de la page */
 .exp {
     font-family: Arial, sans-serif;
@@ -85,10 +87,6 @@ h1 {
     padding: 1px;
     margin: 1px;
 }
-
-
-
-img {
-margin-bottom: 1px;
-
-}
+​
+​
+​
