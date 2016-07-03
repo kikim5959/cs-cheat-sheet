@@ -1,51 +1,94 @@
+/*corp de la page*/
 
-
-/*arriere plan*/
 body {
+    font-family: Arial, sans-serif;
+    background-color: teal;
+    display: block;
+    margin: 0;
+}
 
-    background-image: url(sa.png);
+/*placement du titre*/
+
+#heading {
+    border-bottom: 1px solid #000;
+    margin: 11px 15px 10px 85px;
 }
-/* Navigation  */
-ul.navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 10;
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em
+
+/*largeur du tableau*/
+
+#contentbox {
+    margin-left: 100px;
+    margin-right: 500px;
+    top: 50px;
 }
+#content1 {
+    float: left;
+    width: 60%;
+}
+#content2 {
+    float: right;
+    width: 55px;
+}
+/*cadre du tableaux*/
+.section {
+    border: 1px solid black;
+    margin: 4px;
+    width: 100%;
+}
+/*les bourdur interieur du tableau
+avec la police*/
+.section th {
+    border: 1px solid black;
+    color: #fff;
+    background-color: brown;
+    font-size: 9.5pt;
+}
+.section td {
+    font-family: Arial, sans-serif;
+    font-size: 8.5pt;
+    vertical-align: top;
+    border: 0;
+}
+
+/*couleur interieur des bordure*/
+
+.subheading2 {
+	background-color: #c6e7ef;
+}
+
+
+
+.evenrow {
+    background-color: #eee;
+}
+
 /*titre*/
 h1 {
-    font-size: 38px;
-    color:  #625B48;
-    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
-    text-align: center;
+    margin: 0px;
+    padding: 0px;
 
 }
-/*PLACEMENT NAVIGATION*/
-ul.navbar li {
-    padding: 14;
-    margin-top: 10px;
-    margin: 10px;
 
+/*ligne du bas de la page */
+.exp {
+    font-family: Arial, sans-serif;
+    border-top: 1px solid brown;
+    font-size: 7.5pt;
+    clear: both;
 }
-/*POLICE NAVIGATION*/
-ul.navbar a {
-    text-decoration-color: transparent;
-    color: #625B48;
-    font-size: 20px;
-    text-decoration: underline;
+/*largeur des case et couleur*/
+.values {
+    font-family: Arial, sans-serif;
+    font-size: 7.75pt;
+    background-color: #ffdba1;
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin: 1px;
 }
 
 
 
-th {
-font-family:monospace;
-border:1px dotted #6495ed;
-padding:5px;
-background-color:#EFF6FF;
-width:29%;
-
+img {
+margin-bottom: 1px;
 
 }

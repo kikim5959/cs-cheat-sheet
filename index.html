@@ -1,51 +1,275 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <meta charset="UTF-8">
 
-    <title>CSS CHEAT SHEET</title>
 </head>
 
+
 <body>
-    <!-- Menu de navigation du site -->
-    <ul class="navbar">
-        <li><a href="index.html">&#9733;Ajouter de la couleur</a>
-            <li><a href="reflexions.html">&#9733;Ajouter des fontes</a>
-                <li><a href="ville.html">&#9733;La barre de navigation</a>
-                    <li><a href="liens.html">&#9733;Stylisez vos liens</a>
-                        <li><a href="liens.html">&#9733;Ligne horizontale</a>
-    </ul>
+  <!-- titre + premier cadre -->
+<div id="heading">
+<h1>CSS CHEAT SHEET</h1>
+</div>
+<div id="contentbox">
+<div id="content1">
+<table class="section" border="1">
+      <tr>
+        <th>SYNTAX</th>
+      </tr>
+      <tr><td>
+				<strong>Syntax</strong></td></tr>
+	<tr><td>sélecteur {propriété: valeur;}</td></tr>
+			<tr><td><strong>Feuille de style externe</strong></td></tr>
+		<tr><td>&lt;link rel="stylesheet" type="text/css" href="style.css" /&gt;</td></tr>
+<tr><td><strong>Interieur Style</strong></td></tr>
+<tr><td>&lt;style type="text/css"&gt;<br />
+ selector {property: value;}<br />
+&lt;/style&gt;</td></tr>
+<tr><td><strong>Inline Style</strong></td></tr>
+<tr><td>&lt;tag style=&quot;property: value&quot;&gt;
+<tag style="property: value"></td></tr>
+
+	    <tr>
+        <td></td></td></tr>
+        <tr>
+        <td></tr></td></tr>
+    </table>
 
 
-    <!-- Contenu principal -->
 
-<center>
-    <table>
-        <tr class="cadre">
+    <!-- 2eme tableau -->
+      <table class="section" border="1">
+      <tr>
+        <th colspan="2">GENERAL</th>
+      </tr>
+      <tr>
+        <td> Class</td>
+        <td>Chaîne précédée d'une période</td>
+      </tr>
+      <tr class="evenrow">
+        <td>ID </td>
+        <td>	Chaîne précédée par un signe dièse</td>
+      </tr>
+      <tr>
+        <td>div</td>
+        <td>la structure ou bloc de texte Formats </td>
+      </tr>
+      <tr class="evenrow">
+        <td>span</td>
+        <td>formatage Inline</td>
+      </tr>
+      <tr>
+        <td>color</td>
+        <td>Couleur du premier plan</td>
+      </tr>
+      <tr class="evenrow">
+        <td>cursor</td>
+        <td>Apparence du curseur</td>
+      </tr>
+      <tr>
+        <td>Afficher</td>
+        <td><div class="values"> bloque; en ligne; list-item; aucun</div></td>
+      </tr>
+      <tr class="evenrow">
+        <td> débordement	</td>
+        <td>How content overflowing its box is handled
+          <div class="values">visible, hidden, scroll, auto</div></td>
+      </tr>
+      <tr>
+        <td>visibility</td>
+        <td><div class="values">visibiliter cacher</div></td>
+      </tr>
+    </table>
 
 
-            <th>CSS CHEAT SHEET</th>
+
+    <!-- 3   tableau  -->
+      <table class="section" border="1">
+        <tr>
+          <th colspan="2">FONT</th>
+        </tr>
+        <tr>
+          <td>font-style</td>
+          <td><div class="values">Italic, normal </div></td>
+        </tr>
+        <tr class="evenrow">
+          <td>font-variant</td>
+          <td><div class="values">, les petites capitalisations normales</div></td>
+        </tr>
+        <tr>
+          <td>font-weight</td>
+          <td><div class="values">gras, normal, plus léger, plus audacieux, entier (100-900)</div></td>
+        </tr>
+        <tr class="evenrow">
+          <td>font-size</td>
+          <td>Taille de la police</td>
+        </tr>
+        <tr>
+          <td>font-family</td>
+          <td>police spécifique (s) à utiliser</td>
+        </tr>
+      </table>
+      <table class="section" border="1">
+        <tr>
+
+
+          <!-- 4eme tableau -->
+          <th colspan="2">TEXT</th>
+        </tr>
+        <tr>
+          <td>letter-spacing</td>
+          <td>L'espace entre les lettres</td>
+        </tr>
+        <tr class="evenrow">
+          <td>line-height</td>
+          <td>La distance verticale entre les lignes de base</td>
+        </tr>
+        <tr>
+          <td>text-align</td>
+          <td>L'alignement horizontal</td>
+        </tr>
+        <tr class="evenrow">
+          <td>text-decoration</td>
+          <td><div class="values">blink, line-through, none, overline, underline</div></td>
+        </tr>
+        <tr>
+          <td>text-indent</td>
+          <td>Première indentation de ligne</td>
+        </tr>
+        <tr class="evenrow">
+          <td>text-transform</td>
+          <td><div class="values">capitaliser, minuscules, majuscules</div></td>
+        </tr>
+        <tr>
+          <td>vertical-align</td>
+          <td>Alignement vertical</td>
+        </tr>
+        <tr class="evenrow">
+          <td>word-spacing</td>
+          <td>L'espacement entre les mots</td>
+        </tr>
+      </table>
+</div>
+
+
+<!-- 5eme tableaux -->
+      <table class="section" border="1">
+        <tr>
+          <th colspan="2">BORDER</th>
+        </tr>
+		<tr>
+		  <td>border-width</td>
+	      <td>Largeur de la frontière</td>
+		</tr>
+		<tr class="evenrow">
+          <td>border-style</td>
+          <td><div class="values">en pointillés; pointé; double; rainure; encart; début; Crête; solide; aucun</div></td>
+	    </tr>
+		<tr>
+		  <td>border-color</td>
+	      <td>Couleur de la bordure</td>
+		</tr>
+      </table>
+      <table class="section" border="1">
+        <tr>
+
+
+
+          <!-- 6eme tableau  -->
+          <th colspan="2">POSITION</th>
+        </tr>
+        <tr>
+          <td>clear</td>
+          <td>Tous les éléments flottants autour de l'élément?
+              <div class="values">à la fois, à gauche, à droite, aucun</div></td>
+        </tr>
+        <tr class="evenrow">
+          <td>float</td>
+          <td>Flotteurs à un côté spécifié
+          <div class="values">gauche, droite, aucun</div></td>
+        </tr>
+        <tr>
+          <td>left</td>
+          <td>La position gauche d'un élément
+            <div class="values">automobiles, des valeurs de longueur (pt, en, cm, px)</div></td>
+        </tr>
+        <tr class="evenrow">
+          <td>top</td>
+          <td>La première position d'un élément
+            <div class="values">automobiles, des valeurs de longueur (pt, en, cm, px)</div></td>
+        </tr>
+        <tr>
+          <td> position</td>
+          <td><div class="values">statique, relative, absolue</div></td>
+        </tr>
+        <tr class="evenrow">
+          <td>z-index </td>
+          <td>Élément dessus ou en dessous des éléments qui se chevauchent?
+              <div class="values">auto, entier (nombres plus élevés sur le dessus) </div></td>
+        </tr>
+      </table>
+      <table class="section" border="1">
+        <tr>
+
+          <!-- 7me tableaux -->
+          <th colspan="2">BACKGROUND</th>
+        </tr>
+        <tr>
+          <td>background-color</td>
+          <td> Couleur de fond </td>
+        </tr>
+        <tr class="evenrow">
+          <td>background-image	</td>
+            <td>Image de fond</td>
 
         </tr>
+        <tr>
+          <td>background-repeat</td>
+          <td><div class="values">répéter, no-repeat, repeat-x, repeat-y</div></td>
+        </tr>
+        <tr class="evenrow">
+          <td>background-attachment</td>
+          <td>Contexte Faire défiler l'image avec l'élément??
+              <div class="values">scroll, fixed</div></td>
+        </tr>
+        <tr>
+          <td>background-position</td>
+          <td><div class="values">(Xy), haut, au centre, en bas, gauche, droite</div></td>
+        </tr>
+      </table>
+      <table class="section" border="1">
+        <tr>
 
+          <!-- 8eme tableaux -->
+          <th colspan="2">LIST</th>
+        </tr>
+        <tr >
+          <td> list-style-type</td>
+          <td>Type de puce ou de numérotation dans la liste
+            <div class="values">disque; cercle; carré; décimal; bas-romain; upper-roman; alpha inférieur; -alpha supérieure; aucun</div></td>
+        </tr>
+        <tr class="evenrow">
+          <td> list-style-position</td>
+          <td>Position de la puce ou le numéro dans une liste
+            <div class="values">à l'intérieur; à l'extérieur</div></td>
+        </tr>
+        <tr>
+          <td> list-style-image </td>
+          <td>L'image à utiliser comme la balle dans une liste</td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+        </tr>
+      </table>
+</div>
+<div class="floatcontainer">
+<div class="exp">* petite anti seche css :D </div>
+    </div>
+  </div>
 
-
-
-
-    </table>
-</center>
-
-
-
-
-
-
-
-
-
+</div>
+</div>
 </body>
-
 </html>
